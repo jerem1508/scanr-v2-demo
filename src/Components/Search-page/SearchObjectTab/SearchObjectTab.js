@@ -1,7 +1,7 @@
 import React from 'react';
 import { IntlProvider, FormattedHTMLMessage } from 'react-intl';
 import PropTypes from 'prop-types';
-
+/* eslint-disable */
 import classes from './SearchObjectTab.scss';
 
 /* Gestion des langues */

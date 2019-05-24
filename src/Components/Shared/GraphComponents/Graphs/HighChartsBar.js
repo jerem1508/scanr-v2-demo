@@ -5,7 +5,7 @@ import HighchartsReact from 'highcharts-react-official';
 import HCExporting from 'highcharts/modules/exporting';
 import HCExportingData from 'highcharts/modules/export-data';
 import HCRounded from 'highcharts-rounded-corners';
-
+/* eslint-disable */
 HCExporting(Highcharts);
 HCExportingData(Highcharts);
 HCRounded(Highcharts);

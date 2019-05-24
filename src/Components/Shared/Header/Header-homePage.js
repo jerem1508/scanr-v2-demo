@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { IntlProvider, FormattedHTMLMessage } from 'react-intl';
 import PropTypes from 'prop-types';
 
@@ -8,7 +8,7 @@ import messagesEn from './translations/en.json';
 
 /* SCSS */
 import classes from './Header.scss';
-
+/* eslint-disable */
 import LogoScanrWhiteSVG from '../../Shared/svg/logo-scanr-blue';
 
 

@@ -11,6 +11,7 @@ import classes from './FocusList.scss';
  * Accessible : .
  * Tests unitaires : .
 */
+/* eslint-disable */
 const FocusList = props => (
   <div className={classes.FocusList}>
     FocusList

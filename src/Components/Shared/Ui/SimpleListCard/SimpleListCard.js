@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import ReactTooltip from 'react-tooltip';
 import ButtonWithModal from '../Buttons/ButtonWithModal';
-
+/* eslint-disable */
 import classes from './SimpleListCard.scss';
 
 /**

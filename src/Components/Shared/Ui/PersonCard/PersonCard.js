@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+/* eslint-disable */
 import classes from './PersonCard.scss';
 
 import logo from '../../svg/icon-fiche-responsable_h.svg';

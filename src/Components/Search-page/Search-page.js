@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Axios from 'axios';
 import PropTypes from 'prop-types';
+/* eslint-disable */
 import queryString from 'query-string'
 
 import classes from './Search-page.scss';

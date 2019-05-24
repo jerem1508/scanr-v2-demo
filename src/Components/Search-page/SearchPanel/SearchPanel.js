@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { IntlProvider, FormattedMessage, FormattedHTMLMessage } from 'react-intl';
 import PropTypes from 'prop-types';
-
+/* eslint-disable */
 /* Gestion des langues */
 import messagesFr from './translations/fr.json';
 import messagesEn from './translations/en.json';

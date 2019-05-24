@@ -11,6 +11,7 @@ import classes from './Focus.scss';
  * Accessible : .
  * Tests unitaires : .
 */
+/* eslint-disable */
 const Focus = props => (
   <div className={classes.Focus}>
     Focus

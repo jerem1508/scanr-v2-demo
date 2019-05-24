@@ -1,5 +1,6 @@
 {
-  "name": "data-esr_ui",
+  "name": "scanR-v2-demo",
+  "homepage": "https://jerem1508.github.io/scanr-v2-demo/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -77,9 +78,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "lint": "./node_modules/.bin/eslint src/",
-    "predeploy": "CI=false npm run build",
-    "deploy": "CI=false gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [

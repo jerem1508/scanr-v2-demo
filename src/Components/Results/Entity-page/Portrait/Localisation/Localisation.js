@@ -4,7 +4,7 @@ import {
 } from 'react-leaflet';
 import PropTypes from 'prop-types';
 import { yellowIcon } from './icons';
-
+/* eslint-disable */
 import CardsTitle from '../../../../Shared/Ui/CardsTitle/CardsTitle';
 
 /* Gestion des langues */

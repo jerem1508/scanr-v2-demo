@@ -23,6 +23,7 @@ const messages = {
  * Accessible : .
  * Tests unitaires : .
 */
+/* eslint-disable */
 const Web = (props) => {
   const getSocialMeadiaButton = (socialMedia) => {
     let suffixUrl = null;
