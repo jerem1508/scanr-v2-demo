@@ -1,0 +1,14 @@
+@import '../../../style.scss';
+
+
+.ActiveFiltersContainer {
+  background-color: $scanrdeepblueColor;
+  color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.ResultHeader {
+  font-size: 1.3em;
+  font-weight: 700;
+}

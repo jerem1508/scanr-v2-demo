@@ -1,0 +1,69 @@
+@import '../../../../style.scss';
+
+.cardIsLeft {
+  padding: 0;
+  padding-right: 4px;
+  margin: 0;
+}
+
+.cardIsRight {
+  padding: 0;
+  padding-left: 4px;
+  margin: 0;
+}
+.GreyTitle {
+  color: $scanrmiddlegreyColor !important
+}
+.TextOverflow {
+  text-overflow: ellipsis;
+}
+.ResultCard {
+  background-color: white;
+  color: $scanrdeepblueColor;
+  height: 325px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+
+  .CardHeader {
+    color: $scanrdeepblueColor;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.1;
+    text-decoration: underline $scanrblueColor;
+  }
+
+  .CardContent {
+    line-height: 1.5;
+  }
+
+  .Icons {
+      font-size: 1em;
+      color: $scanrblueColor;
+      width: 28px;
+      text-align: center;
+  }
+
+  .CardFooter {
+      font-weight: 700;
+      color: $scanrblueColor;
+
+    .Icons {
+      font-size: 1.5em;
+      color: $scanrblueColor;
+    }
+
+    .ButtonToPage {
+      background-color: $scanrblueColor;
+      color: white;
+      border-radius: 8px;
+      font-size: 0.7rem;
+      font-weight: bolder;
+      height: 48px;
+
+      .Text {
+        font-weight: 700;
+        font-size: 1.4em;
+      }
+    }
+  }
+}
